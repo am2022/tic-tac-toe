@@ -122,6 +122,7 @@
             this.btn9.Size = new System.Drawing.Size(252, 194);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // lb_pl1
             // 
