@@ -129,36 +129,36 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 41);
+            this.label1.Size = new System.Drawing.Size(122, 41);
             this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
+            this.label1.Text = "player1:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(167, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 41);
+            this.label2.Size = new System.Drawing.Size(34, 41);
             this.label2.TabIndex = 10;
-            this.label2.Text = "label2";
+            this.label2.Text = "0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(528, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 41);
+            this.label3.Size = new System.Drawing.Size(122, 41);
             this.label3.TabIndex = 11;
-            this.label3.Text = "label3";
+            this.label3.Text = "player2:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(683, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 41);
+            this.label4.Size = new System.Drawing.Size(34, 41);
             this.label4.TabIndex = 12;
-            this.label4.Text = "label4";
+            this.label4.Text = "0";
             // 
             // Form1
             // 
