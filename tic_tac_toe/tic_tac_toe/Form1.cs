@@ -114,5 +114,25 @@ namespace tic_tac_toe
 
             this.turn++;
         }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            if (this.turn % 2 == 0)
+            {
+                btn6.BackColor = Color.Green;
+                btn6.Text = "X";
+                btn6.Enabled = false;
+                this.game_board[5] = 'x';
+            }
+            else
+            {
+                btn6.BackColor = Color.Red;
+                btn6.Text = "O";
+                btn6.Enabled = false;
+                this.game_board[5] = 'o';
+            }
+
+            this.turn++;
+        }
     }
 }
