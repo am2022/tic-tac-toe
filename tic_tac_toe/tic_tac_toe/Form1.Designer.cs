@@ -77,6 +77,7 @@
             this.btn4.Size = new System.Drawing.Size(252, 194);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
