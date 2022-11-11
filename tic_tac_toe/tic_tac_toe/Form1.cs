@@ -31,6 +31,8 @@ namespace tic_tac_toe
                 btn1.Enabled = false;
                 this.game_board[0] = 'o';
             }
+
+            this.turn++;
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -49,6 +51,8 @@ namespace tic_tac_toe
                 btn2.Enabled = false;
                 this.game_board[1] = 'o';
             }
+
+            this.turn++;
         }
     }
 }
