@@ -6,5 +6,10 @@ namespace tic_tac_toe
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
