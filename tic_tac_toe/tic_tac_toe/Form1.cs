@@ -4,7 +4,8 @@ namespace tic_tac_toe
     {
         int turn = 0;
         char[] game_board = { '0', '1', '2', '3', '4', '5', '6', '7', '8' };
-        
+        Check_win cw = new Check_win();
+
         public Form1()
         {
             InitializeComponent();
