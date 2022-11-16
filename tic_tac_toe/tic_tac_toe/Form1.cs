@@ -5,6 +5,9 @@ namespace tic_tac_toe
         int turn = 0;
         char[] game_board = { '0', '1', '2', '3', '4', '5', '6', '7', '8' };
         Check_win cw = new Check_win();
+        char get_win;
+        string dump;
+        int dumpi;
 
         public Form1()
         {
@@ -24,6 +27,17 @@ namespace tic_tac_toe
                 btn1.Text = "X";
                 btn1.Enabled = false;
                 this.game_board[0] = 'x';
+
+                this.get_win = this.cw.is_winner(this.game_board, turn);
+                if (this.get_win == 'x')
+                {
+                    MessageBox.Show("x wins!");
+
+                    this.dump = lb_pls1.Text;
+                    this.dumpi = int.Parse(this.dump);
+                    dumpi++;
+                    lb_pls1.Text = dumpi.ToString();
+                }
             }
             else
             {
@@ -31,6 +45,16 @@ namespace tic_tac_toe
                 btn1.Text = "O";
                 btn1.Enabled = false;
                 this.game_board[0] = 'o';
+
+                this.get_win = this.cw.is_winner(this.game_board, turn);
+                if (this.get_win == 'o')
+                {
+                    MessageBox.Show("o wins!");
+                    this.dump = lb_pls2.Text;
+                    this.dumpi = int.Parse(this.dump);
+                    dumpi++;
+                    lb_pls2.Text = dumpi.ToString();
+                }
             }
 
             this.turn++;

@@ -38,9 +38,9 @@
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
             this.lb_pl1 = new System.Windows.Forms.Label();
-            this.lb_pl1_s = new System.Windows.Forms.Label();
+            this.lb_pls1 = new System.Windows.Forms.Label();
             this.lb_pl2 = new System.Windows.Forms.Label();
-            this.lb_pl2_s = new System.Windows.Forms.Label();
+            this.lb_pls2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -133,14 +133,14 @@
             this.lb_pl1.TabIndex = 9;
             this.lb_pl1.Text = "player1:";
             // 
-            // lb_pl1_s
+            // lb_pls1
             // 
-            this.lb_pl1_s.AutoSize = true;
-            this.lb_pl1_s.Location = new System.Drawing.Point(167, 9);
-            this.lb_pl1_s.Name = "lb_pl1_s";
-            this.lb_pl1_s.Size = new System.Drawing.Size(34, 41);
-            this.lb_pl1_s.TabIndex = 10;
-            this.lb_pl1_s.Text = "0";
+            this.lb_pls1.AutoSize = true;
+            this.lb_pls1.Location = new System.Drawing.Point(167, 9);
+            this.lb_pls1.Name = "lb_pls1";
+            this.lb_pls1.Size = new System.Drawing.Size(34, 41);
+            this.lb_pls1.TabIndex = 10;
+            this.lb_pls1.Text = "0";
             // 
             // lb_pl2
             // 
@@ -151,23 +151,23 @@
             this.lb_pl2.TabIndex = 11;
             this.lb_pl2.Text = "player2:";
             // 
-            // lb_pl2_s
+            // lb_pls2
             // 
-            this.lb_pl2_s.AutoSize = true;
-            this.lb_pl2_s.Location = new System.Drawing.Point(683, 9);
-            this.lb_pl2_s.Name = "lb_pl2_s";
-            this.lb_pl2_s.Size = new System.Drawing.Size(34, 41);
-            this.lb_pl2_s.TabIndex = 12;
-            this.lb_pl2_s.Text = "0";
+            this.lb_pls2.AutoSize = true;
+            this.lb_pls2.Location = new System.Drawing.Point(683, 9);
+            this.lb_pls2.Name = "lb_pls2";
+            this.lb_pls2.Size = new System.Drawing.Size(34, 41);
+            this.lb_pls2.TabIndex = 12;
+            this.lb_pls2.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 690);
-            this.Controls.Add(this.lb_pl2_s);
+            this.Controls.Add(this.lb_pls2);
             this.Controls.Add(this.lb_pl2);
-            this.Controls.Add(this.lb_pl1_s);
+            this.Controls.Add(this.lb_pls1);
             this.Controls.Add(this.lb_pl1);
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
@@ -198,8 +198,8 @@
         private Button btn8;
         private Button btn9;
         private Label lb_pl1;
-        private Label lb_pl1_s;
+        private Label lb_pls1;
         private Label lb_pl2;
-        private Label lb_pl2_s;
+        private Label lb_pls2;
     }
 }
