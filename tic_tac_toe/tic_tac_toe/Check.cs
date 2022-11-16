@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace tic_tac_toe
 {
-    internal class Check
+    public class Check_win
     {
+        public char is_winner(char[] info, int num)
+        {
+
+        }
     }
 }
