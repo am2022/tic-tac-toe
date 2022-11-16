@@ -9,6 +9,11 @@ namespace tic_tac_toe
         string dump;
         int dumpi;
 
+        private void make()
+        {
+
+        }
+
         public Form1()
         {
             InitializeComponent();
