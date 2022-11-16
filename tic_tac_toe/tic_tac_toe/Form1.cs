@@ -11,7 +11,40 @@ namespace tic_tac_toe
 
         private void make()
         {
+            for (int i = 0; i < game_board.Length; i++)
+            {
+                game_board[i] = ' ';
 
+                btn1.BackColor = Color.White;
+                btn2.BackColor = Color.White;
+                btn3.BackColor = Color.White;
+                btn4.BackColor = Color.White;
+                btn5.BackColor = Color.White;
+                btn6.BackColor = Color.White;
+                btn7.BackColor = Color.White;
+                btn8.BackColor = Color.White;
+                btn9.BackColor = Color.White;
+
+                btn1.Enabled = true;
+                btn2.Enabled = true;
+                btn3.Enabled = true;
+                btn4.Enabled = true;
+                btn5.Enabled = true;
+                btn6.Enabled = true;
+                btn7.Enabled = true;
+                btn8.Enabled = true;
+                btn9.Enabled = true;
+
+                btn1.Text = "";
+                btn2.Text = "";
+                btn3.Text = "";
+                btn4.Text = "";
+                btn5.Text = "";
+                btn6.Text = "";
+                btn7.Text = "";
+                btn8.Text = "";
+                btn9.Text = "";
+            }
         }
 
         public Form1()
