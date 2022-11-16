@@ -75,6 +75,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -92,6 +93,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -115,6 +117,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -132,6 +135,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -155,6 +159,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -172,6 +177,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -195,6 +201,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -212,6 +219,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -235,6 +243,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -252,6 +261,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -275,6 +285,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -292,6 +303,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -315,6 +327,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -332,6 +345,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -355,6 +369,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -372,6 +387,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
@@ -395,6 +411,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls1.Text = dumpi.ToString();
+                    this.make();
                 }
             }
             else
@@ -412,6 +429,7 @@ namespace tic_tac_toe
                     this.dumpi = int.Parse(this.dump);
                     dumpi++;
                     lb_pls2.Text = dumpi.ToString();
+                    this.make();
                 }
             }
 
