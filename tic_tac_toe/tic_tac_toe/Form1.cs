@@ -228,6 +228,16 @@ namespace tic_tac_toe
                 btn6.Text = "X";
                 btn6.Enabled = false;
                 this.game_board[5] = 'x';
+
+                this.get_win = this.cw.is_winner(this.game_board, turn);
+                if (this.get_win == 'x')
+                {
+                    MessageBox.Show("x wins!");
+                    this.dump = lb_pls1.Text;
+                    this.dumpi = int.Parse(this.dump);
+                    dumpi++;
+                    lb_pls1.Text = dumpi.ToString();
+                }
             }
             else
             {
@@ -235,6 +245,16 @@ namespace tic_tac_toe
                 btn6.Text = "O";
                 btn6.Enabled = false;
                 this.game_board[5] = 'o';
+
+                this.get_win = this.cw.is_winner(this.game_board, turn);
+                if (this.get_win == 'o')
+                {
+                    MessageBox.Show("o wins!");
+                    this.dump = lb_pls2.Text;
+                    this.dumpi = int.Parse(this.dump);
+                    dumpi++;
+                    lb_pls2.Text = dumpi.ToString();
+                }
             }
 
             this.turn++;
