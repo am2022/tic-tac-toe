@@ -41,6 +41,7 @@
             this.lb_pls1 = new System.Windows.Forms.Label();
             this.lb_pl2 = new System.Windows.Forms.Label();
             this.lb_pls2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -160,11 +161,21 @@
             this.lb_pls2.TabIndex = 12;
             this.lb_pls2.Text = "0";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(270, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(252, 58);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "reset";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 690);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lb_pls2);
             this.Controls.Add(this.lb_pl2);
             this.Controls.Add(this.lb_pls1);
@@ -201,5 +212,6 @@
         private Label lb_pls1;
         private Label lb_pl2;
         private Label lb_pls2;
+        private Button button1;
     }
 }
