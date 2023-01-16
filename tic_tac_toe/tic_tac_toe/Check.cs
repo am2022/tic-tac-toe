@@ -81,7 +81,7 @@ namespace tic_tac_toe
 
                 else
                 {
-                    return 'n';
+                    return 'd';
                 }
             }
             else
