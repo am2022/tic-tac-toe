@@ -435,5 +435,10 @@ namespace tic_tac_toe
 
             this.turn++;
         }
+
+        private void btn_reset_Click(object sender, EventArgs e)
+        {
+            this.make();
+        }
     }
 }
